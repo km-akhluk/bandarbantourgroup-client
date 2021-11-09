@@ -1,0 +1,9 @@
+@media only screen and (max-width: 600px) {
+
+.pending-my{
+    margin-top: 10px;
+}
+.status{
+    display: none;
+}
+}

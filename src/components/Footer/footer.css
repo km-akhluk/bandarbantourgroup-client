@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+.footer-bg {
+    background-color: hsl(244deg 14% 22%);
+}
+
+.footer-text {
+    color: #a9a8b6;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.fa-phone-square-alt {
+    color: #e8604c;
+}
+
+.fa-envelope {
+    color: #e8604c;
+}
+.fa-map-marker-alt{
+    color: #e8604c;
+
+}
+.subscribe-input{
+    background: #292837;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+    border-radius: 10px;
+    border: none;
+}
+.subscribe-btn{
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 130px;
+    border-radius: 10px;
+    border: none;
+    background-color: #e8604c;
+    color: white;
+}
+
+/* #a9a8b6 text color */
+
+@media only screen and (max-width: 600px) {
+.subscribe-btn{
+    margin-left: -30px;
+}
+.subscribe-input{
+    margin-left: -30px;
+}
+.footer-bg {
+overflow-x: hidden;
+}
+}
